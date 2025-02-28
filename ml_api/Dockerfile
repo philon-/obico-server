@@ -1,6 +1,6 @@
 FROM thespaghettidetective/ml_api_base:1.4
 WORKDIR /app
-EXPOSE 3333
+EXPOSE ${ML_API_PORT-3333}
 
 ADD . /app
 RUN pip install --upgrade pip
