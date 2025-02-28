@@ -1,3 +1,10 @@
+
+# Standalone ml_api fork
+
+This fork makes it easier to run a barebone, standalone ml_api webservice, with a few added features - most notably it is now possible to analyze image files that are already on the filesystem. 
+
+[Read more](ml_api/README.md)
+
 # The Obico Server
 
 This repo is everything you need to run a self-hosted Obico Server.
